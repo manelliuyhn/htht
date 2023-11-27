@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Barbearia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+    }
+
+    form {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    input[type="time"],
+    textarea {
+      width: 300px;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bem-vindo à Barbearia</h1>
+
+  <p>Agende seu horário:</p>
+
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required><br>
+
+    <label for="data">Data:</label>
+    <input type="date" id="data" name="data" required><br>
+
+    <label for="horario">Horário:</label>
+    <input type="time" id="horario" name="horario" required><br>
+
+    <input type="submit" value="Agendar">
+  </form>
+
+  <p>Entre em contato conosco:</p>
+
+  <p>Telefone: (XX) XXXX-XXXX</p>
+  <p>Email: contato@barbearia.com</p>
+</body>
+</html>
